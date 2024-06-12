@@ -1,0 +1,60 @@
+commit fa18ca77fe188f568d3418e9470b12280d2747ee (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: emsNikac <nikac.nikola@gmail.com>
+Date:   Wed Jun 12 20:09:20 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 914ba0bd8becd5eefc78cc67fdac0b72fb416431
+Author: emsNikac <nikac.nikola@gmail.com>
+Date:   Wed Jun 12 19:48:53 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 68cd5f890ec934153be2440f8ed471fcb36a6d77 (origin/bug1, bug1)
+Author: emsNikac <nikac.nikola@gmail.com>
+Date:   Wed Jun 12 20:05:07 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 8ed01a41fee12ff4edc3695c20ec28e8317abb1c
+Author: emsNikac <nikac.nikola@gmail.com>
+Date:   Wed Jun 12 20:03:11 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit f04bb3a1f299d85ea2065cb33e8dcfa15cac0754
+Author: emsNikac <nikac.nikola@gmail.com>
+Date:   Wed Jun 12 19:44:24 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 30600e592172e0bd1e50d565afb380a17ddc56bd
+Author: emsNikac <nikac.nikola@gmail.com>
+Date:   Wed Jun 12 19:23:54 2024 +0200
+
+    Add started code.
+
+commit 591e464cabb8de4c8764688382904c7a20fbe578
+Author: emsNikac <nikac.nikola@gmail.com>
+Date:   Wed Jun 12 19:21:27 2024 +0200
+
+    Add starter code
+
+commit 98106ba0fa9faaf2a9c739db6a0fd1a66df1cefd
+Author: emsNikac <nikac.nikola@gmail.com>
+Date:   Wed Jun 12 19:07:38 2024 +0200
+
+    Add starter code
+
+commit edf5b9d64b9224ddbf574fdb6c4b402bdaf1ed8e
+Author: emsNikac <nikac.nikola@gmail.com>
+Date:   Wed Jun 12 18:39:40 2024 +0200
+
+    Add starter code
+
+commit 7ae87dc182e38dec54b82d650df0efc17572ed67
+Author: emsNikac <nikac.nikola@gmail.com>
+Date:   Wed Jun 12 18:22:28 2024 +0200
+
+    Initial commit
+
