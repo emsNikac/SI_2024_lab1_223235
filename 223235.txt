@@ -1,0 +1,74 @@
+Uspesno kreirav profil na git
+Ja preimenuvav glvnata granka vo master
+Na github kreirav remote repository i go napraviv privatno
+Kreirav lokalen direktorium so isto ime kako remote, gi upotrebiv komandite
+	- mkdir C:/Users/nikac/Projects/SI_2024_lab1_223235 za kreiranje na lokalvniot repository
+	- cd C:/Users/nikac/Projects/SI_2024_lab1_223235 za vleguvanje vo nego
+git init - inicijalizirav prazen repozitorium
+
+git remote add origin https://github.com/emsNikac/SI_2024_lab1_223235.git - gi povrzav lokalniiot so oddaleceniot repozitorium
+
+$ echo "Nikola Hristovski, 223235" >> README.md - kreiram readme file so sodrzina
+git add README.md - go postavuva readme filot vo staging area
+$ git commit -m "Initial commit" - go komitnuva readme filot
+
+git push -u origin master - za isprakanje na lokalnata granka master na oddaleceniot repozitorium
+
+git add . - za dodavanje na trite files vo staging area
+git commit -m "Add starter code"
+
+git push origin master - sinhroniziranje na lokalniot so oddaleceniot repozitorium
+
+git checkout -b bug1 master - kreira i se prefrla na granka bug1 od master
+git checkout -b bug2 master - kreira i se prefrla na granka bug2 od master
+
+git checkout bug1 - se prefrla na granka bug1
+
+se poprava greskata vo filterOddLengthStrings
+git add SILab1_1.java - go dodava promeneetiot kod
+$ git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+git checkout bug2 - se prefrla na granka bug2 
+pravam promeni vo metodot makeBigStringFrom
+git add SILab1_2.java -  go dodavam promenetiot kod
+$ git commit -m "Fix wrong condition in makeBigStringFrom" - go komitnuvam
+
+git checkout bug1 - se prefrla na bug1 branch
+menuvam kod vo SILab1Main
+git add . - go dodavam noviod kod file
+$ git commit -m "Call method filterOddLengthStrings in main class" - go komitnuvam
+
+git checkout bug2 - se prefrla na bug2 grankata
+git add . - go dodava promenetiot java file
+git commit -m "Call method makeBigStringFrom in main class" - gi komitnuva promenite
+
+git push origin --all - gi sinhronizira site granki
+
+git checkout master - se prefrlam na master grankata
+
+git merge bug1 - ja spojuva grankata bug1 kon grankata master
+
+git push origin --all - gi snhronizira povtorno grankite
+
+git checkout bug2 - se prefrla na bug2 grankata
+
+git rebase master
+KONFLIKT: Nastana konflikt zatoa sto vo master na istata linija ima povikano drug metod, go resiv taka sto ja dodadov i System.out.println(SILab1_2.makeBigStringFrom(list)); metodata 
+git add . - gi dodadov promenite
+git rebase --continue - prmenuvam konflikt
+
+git checkout master - se prefrla na master
+
+git merge bug2 - ja spojuva bug2 kon master
+
+git push --force --all origin - gi sinhronizira site granki
+
+Touch logs.txt - kreira txt file so soodvetnoto ime
+
+git log - gi prikazuva site logovi i gi kopiram
+nano logs.txt - otvaram i gi pejstiram logovite vo filot
+git add . -go dodavam logs.txt filot
+git commit -m "Final commit"
+
+git push origin --all
+
